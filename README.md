@@ -28,3 +28,11 @@ forge script \
 ```
 
 btw this is kinda verbose because we're specifying a custom function signature for `run()`: if you hardcoded the variables (or loaded them with environment variables) it would be a little cleaner.
+
+### [SplitEdition](script/SplitEdition.sol)
+
+Create an Edition with funds routed to a new [Split](http://0xsplits.xyz)
+
+### [CustomRenderer](script/CustomRenderer.sol)
+
+Create a Drop with a custom renderer implementing IMetadataRenderer
